@@ -89,5 +89,10 @@ python scripts/kill_switch.py off
 
 ## Submission gate
 
-`pmat-report.json` intentionally remains `PRE_SUBMISSION` until the real external
-model benchmark has been executed.
+The external model benchmark has been executed against all 24 visible
+applications and is stored in artifacts/routing_benchmark.json.
+
+pmat-report.json is marked MEASURED.
+
+Model-route cost remains PENDING because verified provider pricing was not
+configured for the benchmark. No synthetic cost figures are reported.

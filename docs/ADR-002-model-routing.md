@@ -1,6 +1,6 @@
 # ADR-002: Evidence-Based Model Routing
 
-**Status:** Accepted- benchmark measured
+**Status:** Accepted — benchmark measured
 
 ## Context
 
@@ -50,5 +50,12 @@ or reasoning volume after model/policy changes.
 
 ## Status condition
 
-This ADR is not considered fully evidenced until `artifacts/routing_benchmark.json`
-contains real external measurements. No synthetic benchmark numbers are permitted.
+The external benchmark has been executed and is stored in
+`artifacts/routing_benchmark.json`.
+
+The benchmark covers all 24 visible applications for both model candidates.
+The cheaper candidate achieved 50% accuracy and the reasoning candidate
+achieved 100% accuracy.
+
+Model-route cost remains pending because verified provider pricing was not
+configured. No synthetic cost figures are reported.
