@@ -1,0 +1,155 @@
+[
+  {
+    "application_id": "APP-5022",
+    "cost_usd": 0.0,
+    "event": "decision",
+    "full_input": {
+      "annual_income": 59000.0,
+      "applicant_note": "",
+      "application_id": "APP-5022",
+      "credit_score": 671,
+      "debt_to_income": 0.36,
+      "employment_years": 4.0,
+      "loan_amount": 170000.0,
+      "loan_to_value": 0.83,
+      "property_postcode": "E7-9"
+    },
+    "latency_ms": 0.0604,
+    "model": "reasoning-candidate",
+    "model_payload": {
+      "annual_income": 59000.0,
+      "credit_score": 671,
+      "debt_to_income": 0.36,
+      "employment_years": 4.0,
+      "loan_amount": 170000.0,
+      "loan_to_value": 0.83
+    },
+    "model_version": "local-policy-authority-v1",
+    "policy_authority": "deterministic-python-policy-v1",
+    "route": "reasoning",
+    "route_rationale": "Policy boundary case; use reasoning-grade verification.",
+    "structured_output": {
+      "application_id": "APP-5022",
+      "credit_score": {
+        "band": "ENHANCED_REVIEW",
+        "value": 671
+      },
+      "debt_to_income": {
+        "band": "STANDARD",
+        "value": 0.36
+      },
+      "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+      "human_approval_required": false,
+      "issued": true,
+      "loan_to_value": {
+        "band": "ENHANCED_REVIEW",
+        "value": 0.83
+      },
+      "outcome": "ENHANCED_REVIEW",
+      "reason": "Enhanced review because credit score 671 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95."
+    },
+    "timestamp": "2026-10-04T09:33:09.180089+00:00"
+  },
+  {
+    "application_id": "APP-5023",
+    "cost_usd": 0.0,
+    "event": "decision",
+    "full_input": {
+      "annual_income": 59000.0,
+      "applicant_note": "",
+      "application_id": "APP-5023",
+      "credit_score": 673,
+      "debt_to_income": 0.36,
+      "employment_years": 4.0,
+      "loan_amount": 170000.0,
+      "loan_to_value": 0.83,
+      "property_postcode": "SW3-1"
+    },
+    "latency_ms": 0.0541,
+    "model": "reasoning-candidate",
+    "model_payload": {
+      "annual_income": 59000.0,
+      "credit_score": 673,
+      "debt_to_income": 0.36,
+      "employment_years": 4.0,
+      "loan_amount": 170000.0,
+      "loan_to_value": 0.83
+    },
+    "model_version": "local-policy-authority-v1",
+    "policy_authority": "deterministic-python-policy-v1",
+    "route": "reasoning",
+    "route_rationale": "Policy boundary case; use reasoning-grade verification.",
+    "structured_output": {
+      "application_id": "APP-5023",
+      "credit_score": {
+        "band": "ENHANCED_REVIEW",
+        "value": 673
+      },
+      "debt_to_income": {
+        "band": "STANDARD",
+        "value": 0.36
+      },
+      "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+      "human_approval_required": false,
+      "issued": true,
+      "loan_to_value": {
+        "band": "ENHANCED_REVIEW",
+        "value": 0.83
+      },
+      "outcome": "ENHANCED_REVIEW",
+      "reason": "Enhanced review because credit score 673 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95."
+    },
+    "timestamp": "2026-10-04T09:33:09.180621+00:00"
+  },
+  {
+    "application_id": "APP-5024",
+    "cost_usd": 0.0,
+    "event": "decision",
+    "full_input": {
+      "annual_income": 112000.0,
+      "applicant_note": "",
+      "application_id": "APP-5024",
+      "credit_score": 758,
+      "debt_to_income": 0.25,
+      "employment_years": 10.0,
+      "loan_amount": 250000.0,
+      "loan_to_value": 0.68,
+      "property_postcode": "RG1-8"
+    },
+    "latency_ms": 0.059,
+    "model": "cheap-candidate",
+    "model_payload": {
+      "annual_income": 112000.0,
+      "credit_score": 758,
+      "debt_to_income": 0.25,
+      "employment_years": 10.0,
+      "loan_amount": 250000.0,
+      "loan_to_value": 0.68
+    },
+    "model_version": "local-policy-authority-v1",
+    "policy_authority": "deterministic-python-policy-v1",
+    "route": "cheap",
+    "route_rationale": "All policy factors are standard and not at a measured boundary.",
+    "structured_output": {
+      "application_id": "APP-5024",
+      "credit_score": {
+        "band": "STANDARD",
+        "value": 758
+      },
+      "debt_to_income": {
+        "band": "STANDARD",
+        "value": 0.25
+      },
+      "governing_provision": "Combining the factors: all three primary factors are in the standard band.",
+      "human_approval_required": false,
+      "issued": true,
+      "loan_to_value": {
+        "band": "STANDARD",
+        "value": 0.68
+      },
+      "outcome": "APPROVE",
+      "reason": "Approve because credit score, debt-to-income, and loan-to-value are all within the standard bands."
+    },
+    "timestamp": "2026-10-04T09:33:09.181145+00:00"
+  }
+]

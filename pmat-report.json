@@ -1,0 +1,85 @@
+{
+  "assessment_version": "1.0",
+  "status": "MEASURED",
+  "thresholds": {
+    "correctness": 1.0,
+    "completeness": 1.0,
+    "faithfulness": 1.0,
+    "robustness": 1.0,
+    "p95_latency_ms": 2000,
+    "mean_cost_usd": 0.05
+  },
+  "dimensions": {
+    "correctness": {
+      "observed": 1.0,
+      "status": "PASS",
+      "basis": "All 24 visible applications match the written policy answer key."
+    },
+    "completeness": {
+      "observed": 1.0,
+      "status": "PASS",
+      "basis": "All 24 visible applications produce schema-valid decisions."
+    },
+    "faithfulness": {
+      "observed": 1.0,
+      "status": "PASS",
+      "basis": "Reasons cite the written policy provision and factor values/bands."
+    },
+    "robustness": {
+      "observed": 1.0,
+      "status": "PASS",
+      "basis": "Missing factors refer; applicant free text cannot override policy; prohibited fields are structurally excluded."
+    },
+    "latency": {
+      "observed_p95_ms": 0.5684,
+      "status": "PASS",
+      "basis": "Measured local deterministic service latency."
+    },
+    "cost": {
+      "observed_mean_usd": null,
+      "status": "PENDING",
+      "basis": "Requires measured model-route cost from the external benchmark."
+    }
+  },
+  "model_routing": {
+    "status": "MEASURED",
+    "benchmark_artifact": "artifacts\\routing_benchmark.json",
+    "summary": {
+      "cheap": {
+        "model": "@azure-openai/gpt-4o-mini",
+        "applications": 24,
+        "valid_outputs": 24,
+        "accuracy": 0.5,
+        "mean_cost_usd": 0.0,
+        "p95_latency_ms": 2430.7859000000462,
+        "wrong_applications": [
+          "APP-5003",
+          "APP-5004",
+          "APP-5005",
+          "APP-5008",
+          "APP-5011",
+          "APP-5012",
+          "APP-5014",
+          "APP-5015",
+          "APP-5017",
+          "APP-5021",
+          "APP-5022",
+          "APP-5023"
+        ]
+      },
+      "reasoning": {
+        "model": "@azure-openai-eus2/gpt-5",
+        "applications": 24,
+        "valid_outputs": 24,
+        "accuracy": 1.0,
+        "mean_cost_usd": 0.0,
+        "p95_latency_ms": 9833.549799999673,
+        "wrong_applications": []
+      }
+    },
+    "route_counts_visible_corpus": {
+      "cheap": 7,
+      "reasoning": 17
+    }
+  }
+}

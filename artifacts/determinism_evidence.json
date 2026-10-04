@@ -1,0 +1,638 @@
+{
+  "APP-5007": {
+    "runs": [
+      {
+        "application_id": "APP-5007",
+        "outcome": "APPROVE",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: all three primary factors are in the standard band.",
+        "reason": "Approve because credit score, debt-to-income, and loan-to-value are all within the standard bands.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5007",
+        "outcome": "APPROVE",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: all three primary factors are in the standard band.",
+        "reason": "Approve because credit score, debt-to-income, and loan-to-value are all within the standard bands.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5007",
+        "outcome": "APPROVE",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: all three primary factors are in the standard band.",
+        "reason": "Approve because credit score, debt-to-income, and loan-to-value are all within the standard bands.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5007",
+        "outcome": "APPROVE",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: all three primary factors are in the standard band.",
+        "reason": "Approve because credit score, debt-to-income, and loan-to-value are all within the standard bands.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5007",
+        "outcome": "APPROVE",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: all three primary factors are in the standard band.",
+        "reason": "Approve because credit score, debt-to-income, and loan-to-value are all within the standard bands.",
+        "human_approval_required": false,
+        "issued": true
+      }
+    ],
+    "identical": true,
+    "expected_outcome": "APPROVE"
+  },
+  "APP-5008": {
+    "runs": [
+      {
+        "application_id": "APP-5008",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 640,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 640 is between 640 and 699 inclusive.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5008",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 640,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 640 is between 640 and 699 inclusive.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5008",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 640,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 640 is between 640 and 699 inclusive.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5008",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 640,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 640 is between 640 and 699 inclusive.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5008",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 640,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.8,
+          "band": "STANDARD"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 640 is between 640 and 699 inclusive.",
+        "human_approval_required": false,
+        "issued": true
+      }
+    ],
+    "identical": true,
+    "expected_outcome": "ENHANCED_REVIEW"
+  },
+  "APP-5009": {
+    "runs": [
+      {
+        "application_id": "APP-5009",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 699,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 699 is between 640 and 699 inclusive; DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5009",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 699,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 699 is between 640 and 699 inclusive; DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5009",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 699,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 699 is between 640 and 699 inclusive; DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5009",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 699,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 699 is between 640 and 699 inclusive; DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5009",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 699,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 699 is between 640 and 699 inclusive; DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      }
+    ],
+    "identical": true,
+    "expected_outcome": "ENHANCED_REVIEW"
+  },
+  "APP-5010": {
+    "runs": [
+      {
+        "application_id": "APP-5010",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5010",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5010",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5010",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5010",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 700,
+          "band": "STANDARD"
+        },
+        "debt_to_income": {
+          "value": 0.43,
+          "band": "ENHANCED_REVIEW"
+        },
+        "loan_to_value": {
+          "value": 0.95,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because DTI 0.43 is above 0.36 and at or below 0.43; LTV 0.95 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      }
+    ],
+    "identical": true,
+    "expected_outcome": "ENHANCED_REVIEW"
+  },
+  "APP-5022": {
+    "runs": [
+      {
+        "application_id": "APP-5022",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 671,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 671 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5022",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 671,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 671 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5022",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 671,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 671 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5022",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 671,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 671 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5022",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 671,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 671 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      }
+    ],
+    "identical": true,
+    "expected_outcome": "ENHANCED_REVIEW"
+  },
+  "APP-5023": {
+    "runs": [
+      {
+        "application_id": "APP-5023",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 673,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 673 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5023",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 673,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 673 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5023",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 673,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 673 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5023",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 673,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 673 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      },
+      {
+        "application_id": "APP-5023",
+        "outcome": "ENHANCED_REVIEW",
+        "credit_score": {
+          "value": 673,
+          "band": "ENHANCED_REVIEW"
+        },
+        "debt_to_income": {
+          "value": 0.36,
+          "band": "STANDARD"
+        },
+        "loan_to_value": {
+          "value": 0.83,
+          "band": "ENHANCED_REVIEW"
+        },
+        "governing_provision": "Combining the factors: otherwise any factor in the enhanced-review band produces ENHANCED_REVIEW.",
+        "reason": "Enhanced review because credit score 673 is between 640 and 699 inclusive; LTV 0.83 is above 0.80 and at or below 0.95.",
+        "human_approval_required": false,
+        "issued": true
+      }
+    ],
+    "identical": true,
+    "expected_outcome": "ENHANCED_REVIEW"
+  }
+}
